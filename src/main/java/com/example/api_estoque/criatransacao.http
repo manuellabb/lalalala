@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/transacao/inserir
+Content-Type: application/json
+
+{
+"descricao": "PIX pro modolo me dar 10",
+"valor": 6969.69,
+  "data_transacao": "2023-09-01",
+  "tipo_transacao": "pix"
+}
